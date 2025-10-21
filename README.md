@@ -1,7 +1,9 @@
 # Projet BotNet Detection — Cyber Threat Intelligence via Machine Learning
+
 <p align="center">
   <img src="img/img_presentation.png" alt="Présentation du projet" height="300">
 </p>
+
 ##  Description
 
 Le projet **BotNet Detection** est une solution de **détection intelligente d’activités malveillantes dans le trafic réseau**.
