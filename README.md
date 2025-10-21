@@ -1,8 +1,6 @@
 # Projet BotNet Detection — Cyber Threat Intelligence via Machine Learning
 <p align="center">
-  <img src="img/img_presentation.png" alt="Présentation du projet" height="250">
-  <br>
-  <em>Aperçu du projet — Détection intelligente d’attaques réseau</em>
+  <img src="img/img_presentation.png" alt="Présentation du projet" height="300">
 </p>
 ##  Description
 
