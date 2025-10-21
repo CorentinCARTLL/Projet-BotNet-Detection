@@ -15,7 +15,7 @@ Basé sur le jeu de données **CICIDS2017**, ce projet applique des modèles d�
 *  **Botnets et trafic anormal**
 
 Ce projet combine **ingénierie de la donnée**, **cybersécurité** et **intelligence artificielle**.
-L’objectif est clair : **entraîner un modèle capable de détecter des comportements anormaux même sur des jours jamais vus auparavant** — une approche inspirée des systèmes **IDS/IPS (Intrusion Detection Systems)** modernes.
+L’objectif est clair : **entraîner un modèle capable de détecter des comportements anormaux même sur des jours jamais vus auparavant** une approche inspirée des systèmes **IDS/IPS (Intrusion Detection Systems)** modernes.
 
 ##  Architecture du projet
 
@@ -53,18 +53,16 @@ pip install -r requirements.txt
 
 Les fichiers ne sont **pas inclus** dans le dépôt GitHub (taille trop importante).
 
-Télécharge-les depuis le site officiel :
+Téléchargez-les depuis le site officiel :
 [https://www.unb.ca/cic/datasets/ids-2017.html](https://www.unb.ca/cic/datasets/ids-2017.html)
 
 Ensuite :
 
-* Extrais le dossier `MachineLearningCSV` dans `Projet-BotNet-Detection/data/`
-* Tu devrais obtenir :
+* Extraire le dossier `MachineLearningCSV` dans `Projet-BotNet-Detection/data/`
+* Vous devriez obtenir :
 
   * data/
-
     * MachineLearningCSV/
-
       * Monday-WorkingHours.pcap_ISCX.csv
       * Tuesday-WorkingHours.pcap_ISCX.csv
       * ...
@@ -133,16 +131,16 @@ Ce projet illustre le rôle fondamental de l’IA dans la **cyberdéfense modern
 
 | Axe                            | Objectif                                                        |
 | ------------------------------ | --------------------------------------------------------------- |
-|  **SMOTE / ADASYN**          | Rééquilibrer les classes pour mieux détecter les attaques rares |
-|  **Feature Selection / PCA** | Réduire les dimensions pour optimiser la vitesse                |
-|  **LightGBM / CatBoost**     | Tester d’autres algorithmes de boosting                         |
-|  **Déploiement Streamlit**   | Créer une interface interactive de visualisation des alertes    |
-|  **MLOps / Logging**         | Automatiser le suivi et la mise à jour du modèle                |
+|  **SMOTE / ADASYN**          | Rééquilibrer les classes pour mieux détecter les attaques rares   |
+|  **Feature Selection / PCA** | Réduire les dimensions pour optimiser la vitesse                  |
+|  **LightGBM / CatBoost**     | Tester d’autres algorithmes de boosting                           |
+|  **Déploiement Streamlit**   | Créer une interface interactive de visualisation des alertes      |
+|  **MLOps / Logging**         | Automatiser le suivi et la mise à jour du modèle                  |
 
 ##  Auteur
 
 **Corentin CARTALLIER**
-Étudiant ingénieur en informatique et cybersécurité – CESI Toulouse
+Étudiant ingénieur en informatique et cybersécurité à CESI
 Passionné par l’intelligence artificielle appliquée à la cybersécurité et la détection d’anomalies réseau.
 
 [LinkedIn](https://www.linkedin.com/in/corentin-cartallier-71a56035a/)
